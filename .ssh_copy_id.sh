@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 #usage ./ssh_copy_id.sh user_name@IP... eg ./ssh_copy_id.sh root@10.0.0.50
-#Also make sure expect is installed. you may use apt-get install python-pip and then pip install expect on ubuntu systems
+#Also make sure expect is installed. you may use "apt-get install python-pip" and then "pip install expect" on ubuntu systems
 #"which expect" should output the path 
 set timeout 3
 set ip [lindex $argv 0];
